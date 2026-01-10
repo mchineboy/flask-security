@@ -21,3 +21,5 @@ blinker
 email_validator
 itsdangerous
 importlib_resources>=5.10.0
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.1.5 # not directly required, pinned by Snyk to avoid a vulnerability
